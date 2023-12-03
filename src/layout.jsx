@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import { App } from "./views/App.jsx";
 import { Navbar } from "./components/Navbar.jsx";
+import { Footer } from "./components/Footer.jsx";
 
 // import { NotFound } from "./views/notfound.jsx";
 
@@ -22,6 +23,7 @@ const Layout = () => {
             <>
               <Navbar />
               <App />
+              <Footer />
             </>
           }
         />

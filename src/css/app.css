@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-h2, li, ul {
+h2, li, ul, button {
   font-family: "Coming Soon", cursive;
   font-family: "Oswald", sans-serif;
 }
