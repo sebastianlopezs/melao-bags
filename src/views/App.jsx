@@ -18,6 +18,7 @@ export const App = () => {
           <img src="/landingpage2.png" className="" />
         </div>
       </div>
+      <img src="/modellandingpage.png" className="w-screen"/>
     </>
   );
 };
