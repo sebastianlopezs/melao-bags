@@ -12,7 +12,7 @@ export const App = () => {
       </div>
       <div className="w-screen">
         <div className="flex justify-center w-full my-5">
-          <button className=" w-40 border border-neutral-100 hover:border-white text-neutral-100 hover:text-white hover:bg-neutral-400 hover:bg-opacity-25 transition duration-300 rounded-full p-3 text-xl absolute z-50 mt-[48rem]">
+          <button className=" w-40 border border-neutral-100 hover:border-white text-neutral-100 hover:text-white hover:bg-neutral-400 hover:bg-opacity-25 transition duration-300 rounded-full p-3 text-xl absolute z-50 mt-[38rem]">
             Personalizar
           </button>
           <img src="/landingpage2.png" className="" />
