@@ -6,3 +6,10 @@ Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+Inspiración:
+
+- https://www.bosanova.es/es/ (especificaciones de envío e información adicional)
+- https://cl.isadoraonline.com/ (fotos de un mismo estilo)
+- https://www.parfois.com/es/es/home/ (navbar)
+- https://eu.louisvuitton.com/eng-e1/homepage (barra de búsqueda)
