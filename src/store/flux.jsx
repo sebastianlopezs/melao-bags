@@ -1,12 +1,8 @@
-const getState = ({ setStore }) => {
+const getState = () => {
 	return {
 		store: {
-			theme: null
 		},
 		actions: {
-			changeTheme: theme => {
-                setStore({ theme });
-            },
 		}
 	};
 };

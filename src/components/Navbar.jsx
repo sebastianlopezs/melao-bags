@@ -93,7 +93,7 @@ export const Navbar = () => {
           <VscAccount
           className="cursor-pointer text-black text-2xl hover:text-red-600 transition duration-300"
           onClick={() => {
-            navigate("/registro-usuario");
+            navigate("/signup");
             setIsOpen(false);
           }}
           />

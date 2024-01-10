@@ -4,11 +4,11 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { App } from "./views/App.jsx";
 import { Navbar } from "./components/Navbar.jsx";
 import { Footer } from "./components/Footer.jsx";
+import { Signup } from "./views/Signup.jsx";
 
 // import { NotFound } from "./views/notfound.jsx";
 
 import injectContext from "./store/appContext.jsx";
-import Registro from "./components/Registro.jsx";
 
 const Layout = () => {
   // the basename is used when your project is published in a subdirectory and not in the root of the domain
@@ -29,10 +29,10 @@ const Layout = () => {
           }
         />
         <Route
-          path= "/registro-usuario"
+          path="/signup"
           element={
             <>
-              <Registro />
+              <Signup />
             </>
           }
         />

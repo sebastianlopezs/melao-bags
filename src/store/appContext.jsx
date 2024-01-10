@@ -22,17 +22,6 @@ const injectContext = PassedComponent => {
 		);
 
 		useEffect(() => {
-			if (
-                localStorage.theme === "dark" ||
-                (!("theme" in localStorage) &&
-                    window.matchMedia("(prefers-color-scheme: dark)").matches)
-            ) {
-                document.documentElement.classList.add("dark");
-                state.actions.changeTheme("dark");
-            } else {
-                document.documentElement.classList.remove("dark");
-                state.actions.changeTheme("light");
-            }
 		}, []);
 
 		// The initial value for the context is not null anymore, but the current state of this component,
