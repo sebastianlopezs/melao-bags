@@ -2,6 +2,7 @@ import { useState } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 import { FiSearch } from "react-icons/fi";
 import { IoBagOutline } from "react-icons/io5";
+import { VscAccount } from "react-icons/vsc";
 
 export const Navbar = () => {
   const navigate = useNavigate();
@@ -89,6 +90,13 @@ export const Navbar = () => {
             </NavLink>
           </li>
           <IoBagOutline className="cursor-pointer text-black text-2xl hover:text-red-600 transition duration-300" />
+          <VscAccount
+          className="cursor-pointer text-black text-2xl hover:text-red-600 transition duration-300"
+          onClick={() => {
+            navigate("/registro-usuario");
+            setIsOpen(false);
+          }}
+          />
         </ul>
       </nav>
     </header>

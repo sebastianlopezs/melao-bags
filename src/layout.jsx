@@ -8,6 +8,7 @@ import { Footer } from "./components/Footer.jsx";
 // import { NotFound } from "./views/notfound.jsx";
 
 import injectContext from "./store/appContext.jsx";
+import Registro from "./components/Registro.jsx";
 
 const Layout = () => {
   // the basename is used when your project is published in a subdirectory and not in the root of the domain
@@ -24,6 +25,14 @@ const Layout = () => {
               <Navbar />
               <App />
               <Footer />
+            </>
+          }
+        />
+        <Route
+          path= "/registro-usuario"
+          element={
+            <>
+              <Registro />
             </>
           }
         />
